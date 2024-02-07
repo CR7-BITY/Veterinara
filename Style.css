@@ -1,0 +1,465 @@
+.part-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:goldenrod;
+    border: gold;
+}
+.logo{
+    width: 160px;
+    height: 50px;
+    padding: 20px;
+    margin-right: 40px;
+}
+.menu{
+    display: flex;
+}
+ a{
+    text-decoration: none;
+    color: white;
+ }
+ ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 30px;
+}
+ li{
+    display: inline;
+    gap: 50px;
+}
+
+.busqueda{
+    margin-left: 30px;
+    display: flex;
+    padding: 20px;
+}
+.barra{
+    background-color: gold;
+    border: none;
+}
+.icono{
+    background-color: deepskyblue;
+}
+.cuerpo{
+    margin: 0;
+}
+.seccion-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gold;
+}
+.contenedor-1{
+    margin: auto;
+    color: white;
+}
+.titulo-one{
+    font-weight: 800;
+    width: 450px;
+    font-size: 40px;
+}
+.texto-one{
+    width: 450px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.enlace-one{
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color:cornflowerblue;
+    color: white;
+    margin-right: 20px;
+}
+.enlace-two{    
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color:transparent;
+    border: solid white;
+    color: white;
+}
+.enlace-one:hover{
+    background-color: white;
+    color: black;
+}
+.enlace-two:hover{
+    background-color: white;
+    color: black;
+}
+.imag{
+    display: flex;
+    margin: auto;
+}
+.perro{
+    height: 500px;
+    width: 400px;
+    margin: auto;
+}
+.seccion-two{ 
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+    align-content: center;
+}
+.contenedor-2{   
+    margin: auto;
+}
+.titulo-two{
+    font-weight: 700;
+    width: 400px;
+    font-size: 30px;
+}
+.texto-two{
+    width: 450px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.enlace-three{
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color:gold;
+    color: white;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.enlace-three:hover{
+    background-color:darkturquoise;
+    color: black;
+}
+.contenedor-3{
+    display: flex;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    background-color: gold;
+    box-shadow: -90px 100px 0 -60px gold;
+}
+.pastor-aleman{
+    opacity: 0.4;
+    height: 350px;
+    width: 350px;
+}
+.cuadro2{
+    z-index: 0;
+    width: 120px;
+    height: 120px;
+    background-color: gold;
+    position: absolute;
+    top: 1055px;
+    left: 660px;
+}
+.seccion-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: gold;
+}
+.contenedor-4{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.titulo-three{
+    font-weight: 900;
+    font-size: 40px;
+}
+.texto-three{
+    width: 590px;
+    font-size: 18px;
+    font-weight: 650;
+}
+.contenedor-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+.hijo-1{
+    text-align: center;
+}
+.nieto{
+    color: white;
+    width: 380px;
+}
+.title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.seccion-for{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    height: 550px;
+}
+.contenedor-6{
+    display: flex;
+    margin: auto;
+    background: gold;
+    height: 370px;
+    width: 370px;
+    box-shadow: 90px 100px 0 -60px gold;
+}
+.pastor-aleman2{
+    height: 370px;
+    width: 370px;
+    opacity: 0.40;
+}
+.contenedor-7{
+    text-align: right;
+    width: 470px;
+    margin: auto;
+}
+.titulo-for{
+    font-weight: 700;
+    font-size: 40px;
+}
+.texto-for{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.enlace-for{
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color:gold;
+    color: white;
+    margin-right: 10px;
+}
+.enlace-for:hover{
+    background-color:darkturquoise;
+    color: black; 
+}
+.seccion-five{
+    margin-top: 50px;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-8{
+    color: white;
+    text-align: center;
+    width: 560px;
+    margin: auto;
+}
+.titulo-five{
+    font-weight: 900;
+    font-size: 40px;
+}
+.texto-five{
+    font-size: 18px;
+    font-weight: 650;
+}
+.contenedor-9{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+    gap: 40px;
+}
+.nieto2{
+    color: white;
+    width: 350px;
+}
+.titulos{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    flex-direction: row;
+    padding-left: 100px;
+}
+.T{
+    text-decoration: line-through;
+    margin-right: 20px;
+}
+.enlace-five{
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color:cornflowerblue;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.enlace-five:hover{
+    background-color: white;
+    color: black;
+}
+.seccion-six{
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-10{
+    margin: auto;
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+    width: 460px;
+}
+    h1{
+        font-weight: 800;
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+    }
+.contenedor-11{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.instagram, .facebook, .twitter, .whatsapp{
+    padding-left: 10px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.nieto3 {
+    text-align: center;
+}
+.seccion-seven{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgba(255,179,0,0.5), rgba(255,204,0,0.5)), url(./Imagenes_photo/fondo2.png);
+    gap: 160px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nieto4 .text{
+    margin-bottom: -5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.corazon, .estetoscopio, .jeringa{
+    padding-top: 90px;
+    padding-left: 25px;
+ }
+ .seccion-eight{
+    background: white;
+    height: 950px;
+ }
+ .contenedor-12{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 190px;
+    width: 600px;
+    padding-top: 50px;
+}    
+    .titulo-eight{
+        font-weight: 800;
+        font-size: 50px;
+        margin: auto;
+    }
+    .texto-eight{
+        font-size: 25px;
+        text-align: center;
+    }
+
+.contenedor-13{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.hijo-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px black;
+
+    .title2{
+        width: 325px;
+        font-size: 30px;
+        margin: auto;
+    }
+    .letra{
+        width: 325px;
+        font-size: 15px;
+        color:aqua;
+    }
+    .text2{
+        width: 325px;
+        font-size: 15px;
+    }   
+    .enlace-six{
+        width: 325px;
+        font-size: 20px;
+        color:aqua;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+}
+.contenedor-14{
+    background-color: #333;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 195px;;
+}
+.lista{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+}
+    .principal{
+        font-size: 25px;
+        font-weight: 700;
+    }
+.lista2{
+    display: flex;
+    flex-direction: column;
+    color: white; 
+    gap: 10px;
+}
+.contenedor-15{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.title3{
+    text-align: right;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0%;
+}
+.text3{
+    text-align: right;
+    font-size: 20px;
+}
+.busquedas{
+    display: flex;
+    padding: 15px 0px;
+}
+.barra1{
+    background-color: goldenrod;
+    border: none;
+    height: 55px;
+    width: 300px;
+}
+.logo-telegram{
+    background-color:deepskyblue;
+    width: 30px;
+    height: 20px;
+    padding: 17.5px 26px;
+}
